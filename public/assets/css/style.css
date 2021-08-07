@@ -1,0 +1,48 @@
+html,body{
+  margin:0;font-family: 'Poppins', sans-serif;
+  position:relative;
+  background-color: #EFEFEF;
+  width: 90%;
+  margin: 0 auto;
+}
+a:link, a:visited, a:hover, a:active{text-decoration:none;color:#000;}
+img{
+  margin-top: 20px;
+  width: 100%;
+}
+.redes{
+  margin: 50px 0;
+}
+.material-icons{
+  vertical-align: middle;
+  margin-left: 10px;
+}
+footer{
+  margin: 20px 0;
+}
+/*responsivo desde 600 vertical para tablet*/
+@media (min-width: 600px) and (orientation: portrait) {
+  .redes{
+    margin: 50px 0;
+  }
+  footer{
+    position: fixed;
+    bottom: 0;
+  }
+}
+/*responsivo desde 700 horizontal para tablet*/
+@media (min-width: 700px) and (orientation: landscape) {
+  .redes{
+    margin: 50px 0;
+  }
+  footer{
+    position: fixed;
+    bottom: 0;
+  }
+}
+/*responsivo desde 1000 para pc*/
+@media (min-width: 1000px){
+  html,body{
+    width: 70%;
+  }
+}
