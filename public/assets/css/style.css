@@ -33,7 +33,7 @@ footer{
 /*responsivo desde 700 horizontal para tablet*/
 @media (min-width: 700px) and (orientation: landscape) {
   .redes{
-    margin: 150px 0 50px 0;
+    margin: 300px 0 50px 0;
   }
   .textos{
     width: 50%;
@@ -43,6 +43,6 @@ footer{
 @media (min-width: 1000px){
   html,body{
     width: 96%;
-    font-size: 30px;
+    font-size: 25px;
   }
 }
