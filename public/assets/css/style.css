@@ -35,14 +35,11 @@ footer{
   .redes{
     margin: 50px 0;
   }
-  footer{
-    position: fixed;
-    bottom: 0;
-  }
 }
 /*responsivo desde 1000 para pc*/
 @media (min-width: 1000px){
   html,body{
-    width: 70%;
+    width: 98%;
+    font-size: 30px;
   }
 }
