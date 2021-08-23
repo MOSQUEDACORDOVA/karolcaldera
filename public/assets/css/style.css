@@ -18,7 +18,7 @@ img{
   margin-left: 10px;
 }
 footer{
-  margin: 20px 0;
+  margin: 50px 0;
 }
 /*responsivo desde 600 vertical para tablet*/
 @media (min-width: 600px) and (orientation: portrait) {
@@ -36,7 +36,7 @@ footer{
     margin: 300px 0 50px 0;
   }
   .textos{
-    width: 50%;
+    width: 60%;
   }
 }
 /*responsivo desde 1000 para pc*/
